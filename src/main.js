@@ -6,4 +6,4 @@ import store from "./store";
 createApp(App)
   .use(store)
   .use(router)
-  .mount("#app");
+  .mount("#app"); // In the argument, we're specfying where we want the app to be mounted.
